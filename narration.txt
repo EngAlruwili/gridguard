@@ -1,0 +1,30 @@
+GridGuard - English voice-over
+Target duration: 72 seconds. Nine scenes, eight seconds each.
+The delivery video uses a synthetic English voice. This is an editable script.
+
+00:00-00:08
+What can transformer loading, voltage, and ambient temperature tell us before a warning becomes more serious?
+
+00:08-00:16
+This is GridGuard: an open-source student prototype for exploring distribution transformer behavior with Python and Streamlit.
+
+00:16-00:24
+Every input is synthetic. A fictional hot day combines changing demand, ambient temperature, and optional voltage disturbances.
+
+00:24-00:32
+The dashboard compares apparent power with the transformer rating, and checks voltage deviation in both directions.
+
+00:32-00:40
+It also calculates current. At the same apparent power, a lower voltage means a higher current.
+
+00:40-00:48
+A simplified thermal model uses that current and ambient temperature to illustrate heating and delayed cooling.
+
+00:48-00:56
+Watch and critical states show their causes. Early warning here means lower thresholds, not a validated forecast.
+
+00:56-01:04
+Replay the day, change the transformer rating, and compare scenarios. Tests check calculations, boundaries, and repeatable data.
+
+01:04-01:12
+The code and assumptions are documented for review. Explore the repository, and suggest what I should test next.

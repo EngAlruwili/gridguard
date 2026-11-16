@@ -1,0 +1,65 @@
+[
+  {
+    "scene": 1, "start": 0, "end": 8,
+    "visual": "Transformer line diagram with load, voltage, and temperature indicators.",
+    "on_screen": "GridGuard / Read the warning signs",
+    "transition": "Short fade from dark",
+    "voice_parts": ["What can transformer loading, voltage, and ambient temperature tell us", "before a warning becomes more serious?"]
+  },
+  {
+    "scene": 2, "start": 8, "end": 16,
+    "visual": "Three connected cards: synthetic inputs, engineering model, interactive dashboard.",
+    "on_screen": "Open source. Explainable. Local.",
+    "transition": "Simple cut",
+    "voice_parts": ["This is GridGuard: an open-source student prototype", "for exploring distribution transformer behavior with Python and Streamlit."]
+  },
+  {
+    "scene": 3, "start": 16, "end": 24,
+    "visual": "Fictional load and ambient curves with a prominent synthetic-data label.",
+    "on_screen": "Synthetic inputs / One fictional hot day",
+    "transition": "Simple cut",
+    "voice_parts": ["Every input is synthetic. A fictional hot day", "combines changing demand, ambient temperature, and optional voltage disturbances."]
+  },
+  {
+    "scene": 4, "start": 24, "end": 32,
+    "visual": "Loading chart and voltage deviation chart with demonstration thresholds.",
+    "on_screen": "Loading + voltage / Visible thresholds",
+    "transition": "Simple cut",
+    "voice_parts": ["The dashboard compares apparent power with the transformer rating,", "and checks voltage deviation in both directions."]
+  },
+  {
+    "scene": 5, "start": 32, "end": 40,
+    "visual": "Compare current at 400 V and 380 V for the same 500 kVA demand.",
+    "on_screen": "Same kVA. Lower voltage. Higher current.",
+    "transition": "Simple cut",
+    "voice_parts": ["It also calculates current. At the same apparent power,", "a lower voltage means a higher current."]
+  },
+  {
+    "scene": 6, "start": 40, "end": 48,
+    "visual": "Ambient, top-oil proxy, and hot-spot proxy traces; annotate thermal lag.",
+    "on_screen": "Thermal lag / Calculated proxy",
+    "transition": "Simple cut",
+    "voice_parts": ["A simplified thermal model uses that current and ambient temperature", "to illustrate heating and delayed cooling."]
+  },
+  {
+    "scene": 7, "start": 48, "end": 56,
+    "visual": "NORMAL, WATCH, and CRITICAL cards, followed by a reason-bearing alert.",
+    "on_screen": "Every alert has a reason",
+    "transition": "Simple cut",
+    "voice_parts": ["Watch and critical states show their causes. Early warning here", "means lower thresholds, not a validated forecast."]
+  },
+  {
+    "scene": 8, "start": 56, "end": 64,
+    "visual": "Replay timeline and a fixed-demand 500 kVA versus 800 kVA comparison.",
+    "on_screen": "Replay. Compare. Test.",
+    "transition": "Simple cut",
+    "voice_parts": ["Replay the day, change the transformer rating, and compare scenarios.", "Tests check calculations, boundaries, and repeatable data."]
+  },
+  {
+    "scene": 9, "start": 64, "end": 72,
+    "visual": "Readable repository file list and a closing invitation to review the project.",
+    "on_screen": "Explore GridGuard / Repository link in the post",
+    "transition": "Fade to dark at the end",
+    "voice_parts": ["The code and assumptions are documented for review.", "Explore the repository, and suggest what I should test next."]
+  }
+]
